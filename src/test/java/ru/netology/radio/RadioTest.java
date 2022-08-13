@@ -57,10 +57,10 @@ public class RadioTest {
     }
     @ParameterizedTest
     @CsvSource({
-            "8,9",
-            "9,10",
-            "10,10",
-            "11,1",
+            "98,99",
+            "99,100",
+            "100,100",
+            "110,1",
             "-1,1"
     })
     public void increaseVolume(int volume, int expected) {
